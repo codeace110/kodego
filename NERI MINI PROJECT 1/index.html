@@ -14,11 +14,13 @@
         margin: 1;
     }
       body,html {
+        background-color: #F7EDDB;
         display: block;
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .content-main{
-      height: 50vh;
+      height: 73vh;
+      background-color: #FFF8EA;
     }
     .content-main-2{
       height: 50vh;
@@ -29,14 +31,25 @@
     .content-aside-2{
       
     }
+    .focus-flex{
+      height: 9vh;
+      margin-top: 3vh;
+      display: block;
+      background-color: #BCCEF8;
+    }
+    .aside-flex{
+      margin: 2vh;
+      height: 26vh;
+      background-color: #576F72;
+    }
 
     .footer-top{
       height: 20vh;
       background-color: #CFD2CF;
     }
     .focus-guest{
-      background-color: #D6E4E5;
-      color: rgb(8, 13, 17);
+      background-color: #7A86B6;
+      color:#FFF8EA;
       display: flex;
     }
     .focus-btn{
@@ -53,7 +66,7 @@
     <header>
       <section>
         <div>
-          <div class="container-fluid bg-secondary bg-opacity-20 border border-white">
+          <div class="container-fluid border-white" style="background-color: #98A8F8;">
             <div class="row">
               <div class="btn col-sm-15 pl-4   ">
                 <button type="button" class="btn text-white"> <i class="fa-solid fa-bullhorn"></i>&nbsp;Introduction</button>
@@ -69,7 +82,7 @@
           </div>
         </div>
       </section>
-        <nav class="navbar navbar-expand-xl bg-secondary bg-opacity-50 pl-3">
+        <nav class="navbar navbar-expand-xl bg-opacity-50 pl-3" style="background-color: #EEF1FF;">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">NERI</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -146,7 +159,7 @@
               </div>
             </div>
         </nav>
-        <div class="container-fluid">
+        <div class="row">
           <div class="focus-guest row mt-4" >
             <div class="col-7">
               <p>
@@ -166,8 +179,18 @@
     <main>
       <section>
         <div class="row">
-          <div class="content-main col-8">wdaw</div>
-          <div class="content-aside col">dwadwa</div>
+          <div class="content-main col-8">
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="focus-flex p-2 bd-highlight">I'm a flexbox container!</div>
+          </div>
+          <div class="content-aside col">
+            <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
+            <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
+          </div>
         </div>
       </section>
       <main>
