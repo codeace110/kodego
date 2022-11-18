@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Graph</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
     
@@ -118,6 +119,11 @@
       background-color: rgb(28, 205, 218);
       color: rgb(16, 37, 231);
     }
+    .adm {
+      animation: 1s linear infinite condemned_blink_effect;
+      background-color: #ecf7f7;
+      color: rgb(0, 0, 0);
+    }
 
      @keyframes condemned_blink_effect {
      0% {
@@ -130,11 +136,23 @@
     visibility: visible;
      }
     }
+    .fa-solid{
+      animation: 1s linear infinite condemned_blink_effect;
+    }
     h5{
       font-weight: 10px;
       font-size: x-large;
       font-family: Impact;
       color: rgb(44, 139, 228);
+    }
+
+    .carousel-item{
+      width: 120px;
+      height: 80px;
+    }
+    .img32321{
+      width: 120px;
+      height: 80px;
     }
     </style>
 </head>
@@ -255,21 +273,41 @@
     </header>
     <main>
       <section class="container-fluid">
-        <h5>ANNOUNCEMENT</h5>
+        <h5 style="margin-bottom: -5px;">NEW RELEASE!!</h5>
+        <span style="margin-bottom:10px;" class="badge text-bg-primary">New Release and Announcement are posted here!!</span>
         <div class="row">
           <div class="content-main col-9">
             <div class="list-group">
               <div class="container text-center">
                 <div class="row">
                   <div class="new-release col">
-                    <div><blink>NEW RELEASE</blink></div>
+                    <div class="col-3">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="img32321" src="https://i.etsystatic.com/15809011/r/il/d327a5/4104189719/il_794xN.4104189719_fkqh.jpg" class="d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="img32321" src="https://i.etsystatic.com/15809011/r/il/264357/4056541286/il_794xN.4056541286_poez.jpg" class="d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="img32321" src="https://i.etsystatic.com/25105655/r/il/35fc7b/3655387904/il_794xN.3655387904_fzez.jpg" class="d-block" alt="...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
                   </div>
                   <div class="new-release col-2">
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
-                    <img class="rounded-circle" style="width: 50px; height: 50px;" src="assets/marjo.jpg" alt="">
+                    <ul style="list-style: none; margin-top: 18px;">
+                      <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
+                      <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
+                    </ul>
+                    <p>CODEACE</p>
                   </div>
                 </div>
               </div>
@@ -283,7 +321,13 @@
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
-                    Column
+                    <div>
+                      <ul style="list-style: none; margin-top: 18px;">
+                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
+                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
+                      </ul>
+                    </div>
+                    <P>CODEACE</P><br>
                   </div>
                 </div>
               </div>
@@ -294,10 +338,16 @@
                     <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;""><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain </p></a>
                   </div>
                   <div class="new-release col-2">
-                    <a style="color: #0c6ba1;" href="">11/18/2022</a>
+                    <a style="color: #0c6ba1;" href=""><abbr title="Coding Beauty">11/18/2022</abbr></a>
                   </div>
                   <div class="new-release col-3">
-                    Column
+                    <div>
+                      <ul style="list-style: none; margin-top: 18px;">
+                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
+                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
+                      </ul>
+                    </div>
+                    <p>CODEACE</p>
                   </div>
                 </div>
               </div>
@@ -311,7 +361,13 @@
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
-                    Column
+                    <div>
+                      <ul style="list-style: none; margin-top: 18px;">
+                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
+                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i> <blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
+                      </ul>
+                    </div>
+                     <p>CODEACE</p>
                   </div>
                 </div>
               </div>
