@@ -15,10 +15,11 @@
         margin: 1;
     }
       body,html {
-        background-color: #f8f5f0;
+        background-color: #c5eee4;
         display: block;
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    
     .content-main-2{
       height: 50vh;
     }
@@ -45,15 +46,19 @@
       background-color: #CFD2CF;
     }
     .focus-guest{
-      background-color: #7A86B6;
+      background-color: #7ebffc;
       color:#FFF8EA;
       display: flex;
     }
     .focus-btn{
-      background-color: #3A8891;
+      width: 180px;
     }
     .btn-focus{
-      background-color: #0E5E6F;
+      width: 350px;
+      height:50px;
+      display: flex;
+      margin-left: 100px;
+      background-color: #0c6ba1;
     }
     .new-release{
       height: 14vh;
@@ -66,6 +71,9 @@
       font-size: medium;
       font-weight: bolder;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a:anon-release{
+      color: #0c6ba1;
     }
     a:link {
       color: rgb(0, 0, 0);
@@ -89,8 +97,8 @@
     }
      blink {
       animation: 1s linear infinite condemned_blink_effect;
-      background-color: yellow;
-      color: red;
+      background-color: rgb(28, 205, 218);
+      color: rgb(16, 37, 231);
     }
 
      @keyframes condemned_blink_effect {
@@ -103,6 +111,12 @@
      100% {
     visibility: visible;
      }
+    }
+    h5{
+      font-weight: 10px;
+      font-size: x-large;
+      font-family: Impact;
+      color: rgb(44, 139, 228);
     }
     </style>
 </head>
@@ -126,19 +140,19 @@
           </div>
         </div>
       </section>
-        <nav class="navbar navbar-expand-xl bg-opacity-50 pl-3" style="background-color: #EEF1FF;">
+        <nav class="navbar navbar-expand-xl bg-opacity-50 pl-3" style="background-color: #a1c1fc73;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">NERI</a>
+              <a class="navbar-brand" href="#"><img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;">𝔾ℝ𝔸ℙℍ𝕀ℂ ℂ𝕆𝕄𝕄𝕌ℕ𝕀𝕋𝕐 <img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle bg-secondary rounded-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle rounded-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #12c4db;">
                      <b class="FORUMS text-white"><i class="fa-thin fa-comments"></i></i>&nbsp;FORUMS</b>
                     </a>
-                    <ul class="dropdown-menu bg-secondary">
+                    <ul class="dropdown-menu" style="background-color: #12c4db;">
                         <li ><a class="dropdown-item text-white" href="#">New Post</a></li>
                         <li ><a class="dropdown-item text-white" href="#">Find threads</a></li>
                         <li ><a class="dropdown-item text-white" href="#">Your threads</a></li>
@@ -152,14 +166,14 @@
                     </ul>
                   </li>
                   <li class="nav-item" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#VIP">
-                    <a class="nav-link text-warning fs-30px bg-secondary bg-opacity-51 rounded-3 "><strong>VIP</strong></a>
+                    <a class="nav-link text-warning fs-30px rounded-3 " style="background-color: #12c4db;"><strong>VIP</strong></a>
                   </li>
                   <li class="nav-item ">
                     <div class="dropdown md-1">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"style="background-color: #12c4db;">
                           <i class="fa-thin fa-magnifying-glass"></i>
                         </button>
-                        <ul class="dropdown-menu dropdown-menu-dark">
+                        <ul class="dropdown-menu dropdown-menu"style="background-color: #12c4db;">
                           <li>
                             <div class="card" style="width: 18rem;">
                                 <form class="d-flex" role="search">
@@ -203,36 +217,52 @@
               </div>
             </div>
         </nav>
-        <div class="row">
-          <div class="focus-guest row mt-4" >
+        <div class="container">
+          <div class="focus-guest row" style="border-radius: 10px; margin-bottom:40px;" >
             <div class="col-7" style="text-align: center;" >
-              <p>
-                Welcome to Graphic Community, Register or Login to the Community to Download Torrents, Get Access to Shoutbox, Post Replies, Use Search Engine and many more features. Register Today!
-              </p>
+              <div class="col-12">
+                <h6 style="margin-top:25px;">
+                  Welcome to Graphic Community, Register or Login to the Community to Download <br> Torrents, Get Access to Shoutbox, Post Replies, Use Search Engine and many more features. Register Today!
+                </h6>
+              </div>
             </div>
-            <div class="focus-btn col-5">
-              <div class="focus-btn1 d-grid gap-2 col-6 mx-auto">
-                <button class="btn-focus" type="button">Button</button>
-                <button class="btn-focus" type="button">Button</button>
+            <div class="focus-btn col-3">
+              <div class="focus-btn1 d-grid gap-2 col-6">
+                <button type="button" class="btn-focus btn btn-outline-warning"><h2><i class="fa-thin fa-user" style="padding-right: 20px;"></i><strong style="border-left: double; padding-left: 75px;">LOG IN</strong></h2></button>
+                <button type="button" class="btn-focus btn btn-outline-warning"><h2><i class="fa-thin fa-arrow-right-to-bracket" style="padding-right: 9px;"></i> <strong style="border-left: double; padding-left: 75px;"> SIGN UP</strong></h2></button>
               </div>
             </div>
           </div>
         </div>
     </header>
-    <hr>
     <main>
-      <section>
+      <section class="container-fluid">
+        <h5>ANNOUNCEMENT</h5>
         <div class="row">
-          <div class="content-main col-8">
+          <div class="content-main col-9">
             <div class="list-group">
               <div class="container text-center">
                 <div class="row">
                   <div class="new-release col">
                     <div><blink>NEW RELEASE</blink></div>
-                    Column
+                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
                   </div>
                   <div class="new-release col-2">
+                    <a style="color: #0c6ba1;" href="">11/18/2022</a>
+                  </div>
+                  <div class="new-release col-3">
                     Column
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="new-release col">
+                    <div style="justify-content: center;"><blink>NEW RELEASE</blink></div> 
+                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
+                  </div>
+                  <div class="new-release col-2">
+                    <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
                     Column
@@ -243,10 +273,10 @@
                 <div class="row">
                   <div class="new-release col">
                     <div><blink>NEW RELEASE</blink></div>
-                    Column
+                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;""><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain </p></a>
                   </div>
                   <div class="new-release col-2">
-                    Column
+                    <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
                     Column
@@ -257,24 +287,11 @@
                 <div class="row">
                   <div class="new-release col">
                     <div><blink>NEW RELEASE</blink></div>
-                    <a href="#">hello</a>
+                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
+                    
                   </div>
                   <div class="new-release col-2">
-                   <h2><i class="fa-duotone fa-credit-card"></i>&nbsp;VIP Release</h2>
-                  </div>
-                  <div class="new-release col-3">
-                    Column
-                  </div>
-                </div>
-              </div>
-              <div class="container text-center">
-                <div class="row">
-                  <div class="new-release col">
-                    <div><blink>NEW RELEASE</blink></div>
-                    Column
-                  </div>
-                  <div class="new-release col-2">
-                    Column
+                    <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
                   <div class="new-release col-3">
                     Column
@@ -288,6 +305,7 @@
             <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
           </div>
         </div>
+         <strong><h5>ALL GRAPHIC COMMUNITY RELEASES HERE!</h5></strong>
       </section>
           <div class="row">
             <div class="content-main-2 col-8">12</div>
