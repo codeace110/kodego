@@ -1,2 +1,156 @@
 
+    * {
+        box-sizing: border-box;
+
+        margin: 1;
+    }
+      body,html {
+        background-color: #c5eee4;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .content-main-2{
+      height: 50vh;
+    }
+    .content-aside{
+
+    }
+    .content-aside-2{
+      
+    }
+    .focus-flex{
+      height: 9vh;
+      margin-top: 3vh;
+      display: block;
+      background-color: #BCCEF8;
+    }
+    .aside-flex{
+      margin: 2vh;
+      height: 26vh;
+      background-color: #576F72;
+    }
+
+    .footer-top{
+      height: 20vh;
+      background-color: #CFD2CF;
+    }
+    .focus-guest{
+      background-color: #7ebffc;
+      color:#FFF8EA;
+      display: flex;
+    }
+    .focus-btn{
+      width: 180px;
+    }
+    .btn-focus{
+      width: 350px;
+      height:50px;
+      display: flex;
+      margin-left: 100px;
+      background-color: #0c6ba1;
+    }
+    .list-group-item{
+      height: 10vh;
+      background-color: #ecf7f7;
+      
+    }
+    .brand-logo{
+      height: 50px;
+      width: 50px;
+    }
+    .icon8{
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .col-110{
+      height: 2vw;
+    }  
+    .new-release{
+      height: 14vh;
+      background-color: #e0f3f3;
+      display: flex;
+      border-bottom: double;
+      border-color: #0E5E6F;
+      text-align: center;
+      align-items: center;
+      font-size: medium;
+      font-weight: bolder;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    a:anon-release{
+      color: #0c6ba1;
+    }
+    a:link {
+      color: rgb(0, 0, 0);
+      background-color: transparent;
+      text-decoration: none;
+    }
+     a:visited {
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      text-decoration: none;
+    }
+     a:hover {
+      color: rgb(243, 221, 26);
+      background-color: transparent;
+      text-decoration: none;
+    }
+     a:active {
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      text-decoration: none;
+    }
+     blink {
+      animation: 1s linear infinite condemned_blink_effect;
+      background-color: rgb(28, 205, 218);
+      color: rgb(16, 37, 231);
+    }
+    .adm {
+      animation: 1s linear infinite condemned_blink_effect;
+      background-color: #ecf7f7;
+      color: rgb(0, 0, 0);
+    }
+
+     @keyframes condemned_blink_effect {
+     0% {
+      visibility: hidden;
+    }
+     50% {
+     visibility: hidden;
+    }
+     100% {
+    visibility: visible;
+     }
+    }
+    .fa-solid{
+      animation: 1s linear infinite condemned_blink_effect;
+    }
+    h5{
+      font-weight: 10px;
+      font-size: x-large;
+      font-family: Impact;
+      color: rgb(44, 139, 228);
+    }
+
+    .carousel-item{
+      width: 120px;
+      height: 80px;
+    }
+    .img32321{
+      width: 120px;
+      height: 80px;
+    }
+    .introduction-main{
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+    }
+    .intro{
+        background-color: rgb(255, 255, 255);
+    }
+    .int-span{
+        margin: 20px;
+    }
   
