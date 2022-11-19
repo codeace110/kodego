@@ -9,7 +9,9 @@
         display: block;
         font-family: 'Times New Roman', Times, serif;
     }
-    
+    ul{
+      list-style-type: none;
+    }
     .content-main-2{
       height: 50vh;
     }
@@ -153,4 +155,10 @@
     .int-span{
         margin: 20px;
     }
+    .nav-vip{
+      width: 60px;
+      height: 40px;
+      margin-top: 16px;
+    }
+
   
