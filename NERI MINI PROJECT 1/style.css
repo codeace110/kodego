@@ -160,5 +160,16 @@
       height: 40px;
       margin-top: 16px;
     }
-
+    .gallery{
+      height: 500px;
+      background-color: #BCCEF8;
+    } 
+    .content-gallery{
+      height: 500px;
+      background-color: #0E5E6F;
+    }
+    .aside-flex-gallery{
+      height: 480px;
+      margin: 10px;
+    }
   
