@@ -15,12 +15,6 @@
     .content-main-2{
       height: 50vh;
     }
-    .content-aside{
-
-    }
-    .content-aside-2{
-      
-    }
     .focus-flex{
       height: 9vh;
       margin-top: 3vh;
@@ -171,9 +165,5 @@
     .aside-flex-gallery{
       height: 480px;
       margin: 10px;
-    }
-    .card{
-      display: flex;
-      padding-left: 20px;
     }
   
