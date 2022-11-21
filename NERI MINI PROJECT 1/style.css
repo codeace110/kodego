@@ -130,11 +130,6 @@
       font-family: Impact;
       color: rgb(44, 139, 228);
     }
-
-    .carousel-item{
-      width: 150px;
-      height: 80px;
-    }
     .img32321{
       width: 200px;
       height: 80px;
@@ -166,7 +161,11 @@
       height: 480px;
       margin: 10px;
     }
-    <style>
+    #box-image{
+      height: 12rem;
+      width: 9rem;
+    }
+
     @media only screen and (max-width: 675px) {
    .fa-magnifying-glass{
     display: flex;
