@@ -10,118 +10,278 @@
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="container-fluid">
+    <style>
+      @media only screen and (max-width: 675px) {
+     .fa-magnifying-glass{
+      display: flex;
+      font-size: 32px;
+      text-align: center;
+     }
+     }
+     @media only screen and (max-width: 573px) {
+     .disp {
+     display: none;   
+     }
+     }
+     @media only screen and (max-width: 465px) {
+      .welcome {
+      display: none;    
+     }
+     }
+     @media only screen and (max-width: 465px) {
+      .btn-focus {
+      width: 130px;   
+     }
+     }
+     @media only screen and (max-width: 465px) {
+      .tbtn{
+      margin: 0;
+      height: 70px;   
+     }
+     }
+     @media only screen and (max-width: 465px) {
+      .navbar-toggler{
+        width: 346px;
+     }
+     }
+     @media only screen and (max-width: 380px) {
+      .adm1{
+
+        width: 10px;
+     }
+     }
+    @media only screen and (min-width: 779px) { 
+    .font-monospace { 
+
+      display: none;
+    }
+    }
+    @media only screen and (max-width: 767px) { 
+    .new-release.col-3 { 
+
+      display: none;
+    }
+    }
+    @media only screen and (max-width: 779px) { 
+    .new-release.col-2 { 
+
+      display: none;
+    }
+    }
+    @media only screen and (max-width: 380px) { 
+    .new-release.col { 
+
+      height: 100px;
+      width: 150px;
+    }
+    }
+    @media only screen and (max-width: 380px) { 
+    .p1 { 
+      margin: 0px;
+
+    }
+    }
+    @media only screen and (max-width: 375px) { 
+    .text-wrap{ 
+      font-size: 10px;
+      height: 100px;
+    }
+    }
+    @media only screen and (min-width: 375px) { 
+    .adm110{ 
+      display: none;
+    }
+    }
+
+
+    @media only screen and (max-width: 375px) { 
+    .rlstext{ 
+      font-size: 10px;
+    }
+    }
+    @media only screen and (max-width: 375px) { 
+    .item-image{ 
+      width: 150px;
+      height:110px;
+      margin: 2px;
+      padding: 4px;
+    }
+    }
+    @media only screen and (max-width: 375px) { 
+    .img-thumbnail{ 
+      width: 120px;
+      height:80px;
+
+    }
+    }
+    @media only screen and (min-width: 765px) { 
+    .item-image{ 
+      width: 200px;
+      height:170px;
+    }
+    }
+    @media only screen and (min-width: 760px) { 
+    .rlstext{ 
+      font-size: 15px;
+    }
+    }
+    @media only screen and (min-width: 760px) { 
+    .img-thumbnail{ 
+      width: 180px;
+      height:120px;
+    }
+    }
+    @media only screen and (min-width: 830px) { 
+    .item-image{ 
+      width: 230px;
+      height:240px;
+    }
+    }
+    @media only screen and (min-width: 830px) { 
+    .img-thumbnail{ 
+      width: 200px;
+      height:170px;
+    }
+    }
+    @media only screen and (min-width: 830px) { 
+    .rlstext{ 
+      font-size: 19px;
+    }
+    }
+    @media only screen and (min-width: 1000px) { 
+    .item-image{ 
+      width: 370px;
+      height:270px;
+    }
+    }
+    @media only screen and (min-width: 1000px) { 
+    .img-thumbnail{ 
+      width: 350px;
+      height:200px;
+    }
+    }
+    @media only screen and (min-width: 1000px) { 
+    .rlstext{ 
+      font-size: 23px;
+    }
+    }
+
+
+
+    </style> 
     <header>
       <section>
         <div class="container-fluid border-white" style="background-color: #98A8F8;">
           <div class="row">
-            <div class="btn col-sm-15 pl-4">
+            <div class="btn col-sm-15">
               <nav>
-                <ul>
-                  <a href="Introduction.html"><button type="button" class="btn text-white"><i class="fa-thin fa-bullhorn"></i>&nbsp;  Introduction</button></a>
-                  <a href="Rules.html"><button type="button" class="btn text-white"><i class="fa-thin fa-book"></i>Rules</button></a>
-                  <a href="Download.html"><button type="button" class="btn text-white"><i class="fa-thin fa-download"></i>&nbsp;How to UPLOAD?</button></a>
-                  <a href="Ratio.html"><button type="button" class="btn text-white"><i class="fa-thin fa-computer-classic"></i>&nbsp;What is your Ratio?</button></a>
-                  <a href="Bonus.html"><button type="button" class="btn text-white"><i class="fa-thin fa-heart-circle-exclamation"></i>&nbsp;Upload Bonus</button></a>
-                  <button type="button" class="btn text-white"><i class="fa-thin fa-rocket-launch"></i>&nbsp;Upgrade to <mark>VIP</mark></button>
-                  <button type="button" class="btn text-white"><i class="fa-thin fa-hand-holding-heart"></i>&nbsp;Your Bonus</button>
-                  <a href="Tickets.html"><button type="button" class="btn text-white"><i class="fa-thin fa-heart-circle-exclamation"></i>&nbsp;</i>Tickets</button></a>
+                <ul class="tbtn">
+                  <a href="Introduction.html"><button type="button" class="btn text-white"><i class="fa-thin fa-bullhorn"></i>&nbsp; <p class="disp">Introduction</p></button></a>
+                  <a href="Rules.html"><button type="button" class="btn text-white"><i class="fa-thin fa-book"></i><p class="disp">Rules</p></button></a>
+                  <a href="Download.html"><button type="button" class="btn text-white"><i class="fa-thin fa-download"></i>&nbsp;<p class="disp">How To Upload?</p></button></a>
+                  <a href="Ratio.html"><button type="button" class="btn text-white"><i class="fa-thin fa-computer-classic"></i>&nbsp;<p class="disp">Ratio</p></button></a>
+                  <a href="Bonus.html"><button type="button" class="btn text-white"><i class="fa-thin fa-heart-circle-exclamation"></i>&nbsp;<p class="disp">Redeem Bonus</p></button></a>
+                  <button type="button" class="btn text-white"><i class="fa-thin fa-rocket-launch"></i>&nbsp;<p class="disp">Upgrade to <mark>VIP</mark></p></button>
+                  <button type="button" class="btn text-white"><i class="fa-thin fa-hand-holding-heart"></i>&nbsp; <p class="disp">POINTS</p></button>
+                  <a href="Tickets.html"><button type="button" class="btn text-white"><i class="fa-thin fa-ticket"></i>&nbsp;<p class="disp">Tickets</p></button></a>
                 </ul>
               </nav>
             </div>
           </div>
         </div>
       </section>
-      <!---------------------------- Fixed hierarchy--------------------------------------------------->
-      <div>
+      <div class="container-fluid"></div>
         <nav class="navbar navbar-expand-xl bg-opacity-50 pl-3" style="background-color: #a1c1fc73;">
-          <div class="container-fluid">
-            <section>
-              <a class="navbar-brand" href="#"><img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;">𝔾ℝ𝔸ℙℍ𝕀ℂ ℂ𝕆𝕄𝕄𝕌ℕ𝕀𝕋𝕐 <img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;"></a>
-            </section>  
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-            <section>
-              <nav class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle rounded-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #12c4db;"><b class="FORUMS text-white"><i class="fa-thin fa-comments"></i></i>&nbsp;FORUMS</b></a> 
-                <ul class="dropdown-menu" style="background-color: #12c4db;">
-                  <li ><a class="dropdown-item text-white" href="#">New Post</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Find threads</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Your threads</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Threads with your posts</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Unanswered threads</a></li>
-                  <li ><a class="dropdown-item text-white" href="#"> Ignore threads in statistic</a></li>
-                  <li ><hr class="dropdown-divider"></li>
-                  <li ><a class="dropdown-item text-white" href="#">Watched</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Watched Threads</a></li>
-                  <li ><a class="dropdown-item text-white" href="#">Wactched Forums</a></li>
-                </ul>
-              <nav>                  
-            </section>
-            <!--------------------------------Fixed--------------------------------------------------->
-            <section>
-             <span class="nav-item-vip d-block" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#VIP">
-              <p class="nav-vip"><a class="nav-link text-warning rounded-3 " style="background-color: #12c4db; width: 60px; height: 40px;"><strong style="margin: 10px; font-size: 25px;">VIP</strong></a></p>
-             </span> 
-             <div class="modal fade" id="VIP" tabindex="-1" aria-labelledby="VIPlabel" aria-hidden="true">
-               <div class="modal-dialog">
-                 <div class="modal-content">
-                   <div class="modal-header">
-                     <h1 class="modal-title fs-7" id="VIPlabel"><strong class="fs-15">VIP MEMBERS ONLY</strong></h1>
-                     <div class="col-12">
-                       <img class=" d-flex justify-content-end w-50 " src="https://images.squarespace-cdn.com/content/v1/596a0fa2bebafbf177669597/1535718089167-H0CBI725K14HBT1I58VG/programming.gif?format=500w" alt="">
-                       <p><sup class="content p-0"><mark>Buy Lowly Coder a coffee<br></mark></sup></p>
-                      </div>
+          <section>
+            <a class="navbar-brand" href="index.html"><img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;">𝔾ℝ𝔸ℙℍ𝕀ℂ ℂ𝕆𝕄𝕄𝕌ℕ𝕀𝕋𝕐 <img src="assets/pallet.png" alt="logo" style="width: 50px; height: 40px;"></a>
+          </section>  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+          <section>
+            <nav class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle rounded-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #12c4db;"><b class="FORUMS text-white"><i class="fa-thin fa-comments"></i></i>&nbsp;FORUMS</b></a> 
+              <ul class="dropdown-menu" style="background-color: #12c4db;">
+                <li ><a class="dropdown-item text-white" href="#">New Post</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Find threads</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Your threads</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Threads with your posts</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Unanswered threads</a></li>
+                <li ><a class="dropdown-item text-white" href="#"> Ignore threads in statistic</a></li>
+                <li ><hr class="dropdown-divider"></li>
+                <li ><a class="dropdown-item text-white" href="#">Watched</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Watched Threads</a></li>
+                <li ><a class="dropdown-item text-white" href="#">Wactched Forums</a></li>
+              </ul>
+            <nav>                  
+          </section>
+          <!--------------------------------Fixed--------------------------------------------------->
+          <section>
+           <span class="nav-item-vip d-block" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#VIP">
+            <p class="nav-vip"><a class="nav-link text-warning rounded-3 " style="background-color: #12c4db; width: 60px; height: 40px;"><strong style="margin: 10px; font-size: 25px;">VIP</strong></a></p>
+           </span> 
+           <div class="modal fade" id="VIP" tabindex="-1" aria-labelledby="VIPlabel" aria-hidden="true">
+             <div class="modal-dialog">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h1 class="modal-title fs-7" id="VIPlabel"><strong class="fs-15">VIP MEMBERS ONLY</strong></h1>
+                   <div class="col-12">
+                     <img class=" d-flex justify-content-end w-50 " src="https://images.squarespace-cdn.com/content/v1/596a0fa2bebafbf177669597/1535718089167-H0CBI725K14HBT1I58VG/programming.gif?format=500w" alt="">
+                     <p><sup class="content p-0"><mark>Buy Lowly Coder a coffee<br></mark></sup></p>
                     </div>
-                    <div class="modal-body text-danger">
-                      <h3>All VIP Users receive a different rank, and are exempt from inactivity pruning and Hit & Runs</h3>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-secondary ">SUBSCRIBE</button>
-                    </div>  
                   </div>
+                  <div class="modal-body text-danger">
+                    <h3>All VIP Users receive a different rank, and are exempt from inactivity pruning and Hit & Runs</h3>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary ">SUBSCRIBE</button>
+                  </div>  
                 </div>
               </div>
-            </section>
-            <section>  
-              <div class="dropdown md-1">
-                  <nav class="nav-item ">
-                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"style="background-color: #12c4db;"><i class="fa-thin fa-magnifying-glass" style="color: white;"></i></button>   
-                <ul class="dropdown-menu dropdown-menu"style="background-color: #12c4db;">
-                  <div class="card" style="width: 18rem;">
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-secondary" type="submit">Search</button><hr>
-                  </form>
-                  </div>
-                    <li><p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;<input class="checkbox mt-4 gl-2" type="checkbox" name="" id="">Check Title Only</p></li><hr>
-                    <li><a class="dropdown-item" href="#">MEMBER</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Threads</a></li>
-                  </div>
-                </ul> 
-              </div>
-            </section>
-          </div>
-        </nav>
-        <!-----------------------------------Massive changes above------------------------------------->
-        <div class="container">
-          <div class="focus-guest row" style="border-radius: 10px; margin-bottom:40px;" >
-            <div class="col-7" style="text-align: center;" >
-              <div class="col-12">
-                <h6 style="margin-top:25px;">
-                  Welcome to Graphic Community, Register or Login to the Community to Download <br> Torrents, Get Access to Shoutbox, Post Replies, Use Search Engine and many more features. Register Today!
-                </h6>
-              </div>
             </div>
-            <div class="focus-btn col-3">
-              <div class="focus-btn1 d-grid gap-2 col-6">
-                <button type="button" class="btn-focus btn btn-outline-warning"><h2><i class="fa-thin fa-user" style="padding-right: 20px;"></i><strong style="border-left: double; padding-left: 75px;">LOG IN</strong></h2></button>
-                <a href="register.html"><button type="button" class="btn-focus btn btn-outline-warning"><h2><i class="fa-thin fa-arrow-right-to-bracket" style="padding-right: 9px;"></i> <strong style="border-left: double; padding-left: 75px;">Sign Up</strong></h2></button></a>
+          </section>
+          <section>  
+            <div class="dropdown md-1">
+                <nav class="nav-item ">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"style="background-color: #12c4db;"><i class="fa-thin fa-magnifying-glass" style="color: white;"></i></button>   
+              <ul class="dropdown-menu dropdown-menu"style="background-color: #12c4db;">
+                <div class="card" style="width: 18rem;">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-secondary" type="submit">Search</button><hr>
+                </form>
+                </div>
+                  <li><p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;<input class="checkbox mt-4 gl-2" type="checkbox" name="" id="">Check Title Only</p></li><hr>
+                  <li><a class="dropdown-item" href="#">MEMBER</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Threads</a></li>
+                </div>
+              </ul> 
+            </div>
+          </section>
+          <div class="container">
+            <section>
+              <div class="focus-guest row" style="border-radius: 10px;" >
+                <div class="col-12" style="text-align: center;" >
+                  <div class="col-12">
+                    <h6 style="margin-top:25px;">
+                        Welcome to Graphic Community, Register or Login to the Community to Download <br> Torrents, Get Access to Shoutbox, Post Replies, Use Search Engine and many more features. Register Today!
+                    </h6>
+                  </div>
+                </div>
+                <aside>
+                  <div class="col-12">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                      <button class="btn btn-primary me-md-2" type="button"><i class="fa-thin fa-user" style="padding-right: 20px;"></i>Log In</button>
+                      <button class="btn btn-primary" type="button"><i class="fa-thin fa-arrow-right-to-bracket" style="padding-right: 9px;"></i><a href="register.html">Sign Up</a></button>
+                    </div>
+                  </div>
+                </aside>
               </div>
+            </section>
           </div>
-        </div>
+        </nav>  
       </div>
     </header>
     <main>
@@ -129,7 +289,7 @@
         <h5 style="margin-bottom: -2px;">NEW RELEASE!!</h5>
         <span style="margin-bottom:10px;" class="badge text-bg-primary">New Release and Announcement are posted here!!</span>
         <div class="row">
-          <div class="content-main col-9">
+          <div class="content-main col-12">
             <div class="list-group">
               <div class="container text-center">
                 <div class="row">
@@ -151,17 +311,26 @@
                         </div>
                       </div>
                     </div>
-                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
+                    <div class="badge text-wrap" style="width: auto; height: 50px; font-size: 15px;">
+                      <span>
+                        <sup class="adm110" style="font-weight: 100;">&nbsp;&nbsp;<img class="rounded-circle" style="width: 16px; height: 16px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm1"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </span>
+                      <a href="#"></i><p class="p1" style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Car, Decals, stickers, Wolf, Mountain</p></a>
+                      <p class="font-monospace"><a style="color: #0c6ba1;" href="">11/18/2022</a></p>
+                    </div>
                   </div>
                   <div class="new-release col-2">
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
-                  <div class="new-release col-3">
-                    <ul style="list-style: none; margin-top: 18px;">
-                      <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
-                      <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
-                    </ul>
-                    <p>CODEACE</p>
+                  <div class="new-release col-3" >
+                    <div class="col" style="flex-wrap: wrap;">
+                      <div class="badge  text-wrap" style="width: 10rem;">
+                        <img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif">
+                        <p style="align-items: flex-end; color: black; margin-bottom: 0px;">CODEACE</p>
+                        <span>
+                        <sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -185,20 +354,27 @@
                           </div>
                         </div>
                       </div>
-                    </div> 
-                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Compass and Mount Sticker, Camper Van Sticker, Car Caravan Vinyl Decal,Mount decal sticker,Compass and Mount Decal Sticker</p></a>
+                    </div>
+                    <div class="badge text-wrap" style="width: auto; height: 50px; font-size: 15px;">
+                      <span>
+                        <sup class="adm110" style="font-weight: 100;">&nbsp;&nbsp;<img class="rounded-circle" style="width: 16px; height: 16px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm1"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </span>
+                      <a href="#"></i><p class="p1" style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Compass and Mount, Vinyl Decal,Mount decal</p></a>
+                      <p class="font-monospace"><a style="color: #0c6ba1;" href="">11/18/2022</abbr></a></p>
+                    </div>
                   </div>
                   <div class="new-release col-2">
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
-                  <div class="new-release col-3">
-                    <div>
-                      <ul style="list-style: none; margin-top: 18px;">
-                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
-                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
-                      </ul>
+                  <div class="new-release col-3" >
+                    <div class="col" style="flex-wrap: wrap;">
+                      <div class="badge  text-wrap" style="width: 10rem;">
+                        <img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif">
+                        <p style="align-items: flex-end; color: black; margin-bottom: 0px;">CODEACE</p>
+                        <span>
+                        <sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </div>
                     </div>
-                    <P>CODEACE</P><br>
                   </div>
                 </div>
               </div>
@@ -222,19 +398,26 @@
                         </div>
                       </div>
                     </div>
-                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;""><i class="fa-thin fa-note-sticky"></i> Vinyl Sticker, Car Window, Car Bumper, MacBook, Water Bottle </p></a>
+                    <div class="badge text-wrap" style="width: auto; height: 50px; font-size: 15px;">
+                      <span>
+                        <sup class="adm110" style="font-weight: 100;">&nbsp;&nbsp;<img class="rounded-circle" style="width: 16px; height: 16px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm1"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </span>
+                      <a href="#"></i><p class="p1" style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Vinyl Sticker, Car Window, Car Bumper, MacBook,</p></a>
+                      <p class="font-monospace"><a style="color: #0c6ba1;" href="">11/18/2022</abbr></a></p>
+                    </div>
                   </div>
                   <div class="new-release col-2">
-                    <a style="color: #0c6ba1;" href=""><abbr title="Coding Beauty">11/18/2022</abbr></a>
+                    <a style="color: #0c6ba1;" href="">11/18/2022</abbr></a>
                   </div>
-                  <div class="new-release col-3">
-                    <div>
-                      <ul style="list-style: none; margin-top: 18px;">
-                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
-                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
-                      </ul>
+                  <div class="new-release col-3" >
+                    <div class="col" style="flex-wrap: wrap;">
+                      <div class="badge  text-wrap" style="width: 10rem;">
+                        <img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif">
+                        <p style="align-items: flex-end; color: black; margin-bottom: 0px;">CODEACE</p>
+                        <span>
+                        <sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </div>
                     </div>
-                    <p>CODEACE</p>
                   </div>
                 </div>
               </div>
@@ -258,384 +441,180 @@
                         </div>
                       </div>
                     </div>
-                    <a href="#"></i><p style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i> Outdoor Decal, Pacific Northwest, PNW, Adventure Decal, Laptop Decal, Animal Decal, Maine</p></a>
+                    <div class="badge text-wrap" style="width: auto; height: 50px; font-size: 15px;">
+                      <span>
+                        <sup class="adm110" style="font-weight: 100;">&nbsp;&nbsp;<img class="rounded-circle" style="width: 16px; height: 16px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm1"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
+                      </span>
+                      <a href="#"></i><p class="p1" style="color: #0c6ba1; padding-left: 20px;"><i class="fa-thin fa-note-sticky"></i>Pacific Northwest, PNW, Animal Decal, Maine</p></a>
+                      <p class="font-monospace"><a style="color: #0c6ba1; margin-top: 2px;" href="">11/18/2022</a></p>
+                    </div>
                   </div>
                   <div class="new-release col-2">
                     <a style="color: #0c6ba1;" href="">11/18/2022</a>
                   </div>
-                  <div class="new-release col-3">
-                    <div>
-                      <ul style="list-style: none; margin-top: 18px;">
-                        <li><img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif"></li>
-                        <li><sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i> <blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup></li>
-                      </ul>
-                    </div>
-                     <p>CODEACE</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  
-          <div class="col">
-            <div class="aside-flex p-2 bd-highlight" style="background-color: #12c4db;">I'm a flexbox container!</div>
-            <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
-          </div>
-          <strong><h5>ALL GRAPHIC COMMUNITY RELEASES HERE!</h5></strong>
-        </div>
-      </section>
-      <!---------------------Section--------- Lisuda i modified oy.. gi atay----- Ayaw hilabti ------All Release-------------------------------->
-      <!---------------------Section--------- Lisuda i modified oy.. gi atay------Ayaw hilabti -----All Release-------------------------------->
-      <!---------------------Section--------- Lisuda i modified oy.. gi atay------Ayaw hilabti -----All Release-------------------------------->
-      <section>
-        <div class="container-fluid">
-          <div class="row">
-          <div class="gallery col-9">
-            <div class="btn-group" role="group" aria-label="Basic outlined example">
-              <button class="btn btn-outline-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                Back
-              </button>
-              <button class="btn btn-outline-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                Next
-              </button>
-            </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-indicators" role="group" aria-label="modified button carousel">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner" style=" height:460px; width: 950px;">
-                <div class="carousel-item active">
-                  <div class="col">
-                    <div class="container text-center">
-                      <div class="row">
-                        <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <!------------------------------------------------>
-                        <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>  
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col">
-                    <div class="container text-center">
-                      <div class="row">
-                        <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <!------------------------------------------------>
-                        <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                        <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                          <img src="..." class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>  
-                    </div>
-                  </div>
-                </div>
-                <!----Cards--------------------------------------------------------------------->
-                <div class="carousel-item">
-                    <div class="col">
-                      <div class="container text-center">
-                        <div class="row">
-                          <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <!------------------------------------------------>
-                          <div class="card" style="width: 9.5rem; height: 12rem; margin-left: 27px; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                          <div class="card" style="width: 9.5rem; height: 12rem; font-size: 32px;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text"></p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                        </div>  
+                  <div class="new-release col-3" >
+                    <div class="col" style="flex-wrap: wrap;">
+                      <div class="badge  text-wrap" style="width: 10rem;">
+                        <img class="rounded-circle" style="width: 60px; height: 45px;" src="https://media.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif">
+                        <p style="align-items: flex-end; color: black; margin-bottom: 0px;">CODEACE</p>
+                        <span>
+                        <sup style="font-weight: 100;"><i style="color: gold;" class="fa-solid fa-star"></i><blink class="adm"><span class="badge rounded-pill text-bg-danger">Administrator</span></blink><i style="color: gold;" class="fa-solid fa-star"></i></sup> <br></span>
                       </div>
                     </div>
+                  </div>
                 </div>
-              </div>  
+              </div>
             </div>
           </div>
-          <div class="content-gallery col">
-            <div class="aside-flex-galler p-2 bd-highlight" style="background-color: #12c4db;">SIDE CONTENT OF GALLERY</div>
-          </div>
         </div>
-      </section>  
-      <div class="container-fluid"> 
-        <aside>
-          <div class="col">
-            <div class="aside-flex p-2 bd-highlight" style="background-color: #12c4db;">I'm a flexbox container!</div>
-            <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
+      </section>
+      <section>
+         <h5 style="margin-top: 20px; margin-left: 20px;"><strong>ALL GRAPHIC COMMUNITY RELEASES HERE!</strong></h5>
+        <div style="margin-left: 20px;" class="btn-group" role="group" aria-label="Basic outlined example">
+          <button class="btn btn-outline-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            Back
+          </button>
+          <button class="btn btn-outline-primary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            Next
+          </button>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators" role="group" aria-label="modified button carousel">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-        </aside>
+            <div class="carousel-inner" style="text-align: center; justify-content: center; align-items: center;">
+              <div class="carousel-item active" style="height: auto;">
+                <div class="flex p-2 bd-highlight"  >
+                  <div class="row">
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-thumbnail" alt="...">
+                        <p class="rlstext">SNOWY MOUNTAINE BY: Eberhard Grossgasteiger</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/9969215/pexels-photo-9969215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-thumbnail" alt="...">
+                        <p class="rlstext">Glacier Point Road By:Lukas Rodriguez</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/4877067/pexels-photo-4877067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-thumbnail" alt="...">
+                        <p class="rlstext">Purple And White Flower In Tilt Shift Lens By: Skyler Ewing</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/12397837/pexels-photo-12397837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-thumbnail" alt="...">
+                        <p class="rlstext">Photo of the Sky By: Dmitry Limonov</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/8853000/pexels-photo-8853000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-thumbnail" alt="...">
+                        <p class="rlstext">Close Up Shot of a Frog BY: Klub Boks</p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="item-image badge text-wrap ">
+                        <img src="https://images.pexels.com/photos/9244778/pexels-photo-9244778.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="img-thumbnail" alt="...">
+                        <p class="rlstext">An Unpaved Road in Eskdale By: Harry Nixon</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/365/244/884/uchiha-itachi-naruto-shippuuden-anbu-silhouette-wallpaper-thumb.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">uchiha itachi illustration</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/214/442/543/digital-art-son-goku-dragon-ball-dragon-ball-z-island-hd-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Dragon Ball Z, Island</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/951/583/798/fantasy-art-warrior-dark-souls-iii-dark-souls-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Warrior Holding Sword</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/663/947/813/oldboy-japanese-digital-art-artwork-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Woman Holding Umbrella</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/965/883/624/manga-one-piece-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Thousand Sunny</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/555/163/727/anime-demon-slayer-kimetsu-no-yaiba-zenitsu-agatsuma-hd-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Zenitsu Agatsuma</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!----Cards--------------------------------------------------------------------->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/711/419/797/fantasy-art-artwork-fan-art-landscape-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">futuristic city, cyberpunk</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/595/116/908/science-fiction-concept-art-blade-runner-movies-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext"> science fiction, concept art,</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/283/433/102/artwork-science-fiction-concept-art-original-characters-neon-hd-wallpaper-preview.jpg"class="img-thumbnail alt="...">
+                      <p class="rlstext">Modern Assasin</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/53/671/673/artwork-futuristic-city-science-fiction-digital-art-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Era of A.I</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/948/296/921/cyber-science-fiction-digital-art-concept-art-cyberpunk-hd-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Era of A.I v.2</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="item-image badge text-wrap ">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/106/747/609/artwork-fantasy-art-science-fiction-spaceship-wallpaper-preview.jpg" class="img-thumbnail" alt="...">
+                      <p class="rlstext">Bird Of Prey</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div> 
+        </div>
+      </section>
+      <div class="col">
+        <div class="aside-flex p-2 bd-highlight" style="background-color: #12c4db;">I'm a flexbox container!</div>
+        <div class="aside-flex p-2 bd-highlight">I'm a flexbox container!</div>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
