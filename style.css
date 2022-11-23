@@ -51,10 +51,6 @@
       background-color: #ecf7f7;
       
     }
-    .img-thumbnail{ 
-      width: 250px;
-      height: 100;
-    }
     .brand-logo{
       height: 50px;
       width: 50px;
@@ -230,51 +226,5 @@
     .rlstext{
 
     }
-
-    @media only screen and (max-width: 675px) {
-   .fa-magnifying-glass{
-    display: flex;
-    font-size: 32px;
-    text-align: center;
-   }
-   }
-   @media only screen and (max-width: 680px) {
-    .t-top {
-    display: none;    
-   }
-   }
-
-   @media only screen and (min-width: 675px) {
-    .hidden {
-    display: block;
-   }
-   }
-   
-   @media only screen and (min-width: 675px) {
-    .hidden {
-    display: none;
-    margin: 0;
-    padding-left: 0px;
-   }
-   }
-   @media only screen and (max-width: 459px) {
-    .logo-img {
-    display: none;    
-   }
-   }
-   @media only screen and (max-width: 465px) {
-    .welcome {
-    display: none;    
-   }
-   }
-   @media only screen and (max-width: 465px) {
-    .welcome {
-    display: none;    
-   }
-   }
-   @media only screen and (max-width: 465px) {
-    .btn-focus {
-    width: 130px;   
-   }
-   }
+ 
   

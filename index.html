@@ -9,126 +9,167 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
   </head>
-  <body class="container-fluid" style="background-color: rgb(227, 237, 255);">
-    <style>
-      @media only screen and (max-width: 675px) {
-     .fa-magnifying-glass{
-      display: flex;
-      font-size: 32px;
-      text-align: center;
-     }
-     }
-     @media only screen and (max-width: 573px) {
-     .disp {
-     display: none;   
-     }
-     }
-     @media only screen and (max-width: 465px) {
-      .welcome {
-      display: none;    
-     }
-     }
-     @media only screen and (max-width: 465px) {
-      .btn-focus {
-      width: 130px;   
-     }
-     }
-     @media only screen and (max-width: 465px) {
-      .tbtn{
-      margin: 0;
-      height: 70px;   
-     }
-     }
-     @media only screen and (max-width: 465px) {
-      .navbar-toggler{
-        width: 346px;
-     }
-     }
-     @media only screen and (max-width: 380px) {
-      .adm1{
+  <style>
+         @media only screen and (max-width: 675px) {
+    .fa-magnifying-glass{
+     display: flex;
+     font-size: 32px;
+     text-align: center;
+    }
+    } 
+    @media only screen and (max-width: 680px) {
+     .t-top {
+     display: none;    
+    }
+    }
+ 
+    @media only screen and (min-width: 675px) {
+     .hidden {
+     display: block;
+    }
+    }
+   
+    @media only screen and (min-width: 675px) {
+     .hidden {
+     display: none;
+     margin: 0;
+     padding-left: 0px;
+    }
+    }
+    
+    @media only screen and (max-width: 459px) {
+    .logo-img {
+    display: none;    
+    }
+    }
 
-        width: 10px;
-     }
-     }
-    @media only screen and (min-width: 779px) { 
-    .font-monospace { 
+    @media only screen and (max-width: 465px) {
+     .welcome {
+     display: none;    
+    }
+    }
+    @media only screen and (max-width: 465px) {
+     .welcome {
+     display: none;    
+    }
+    }
 
-      display: none;
+    @media only screen and (max-width: 465px) {
+     .btn-focus {
+     width: 130px;   
+    }
+    }
+
+    @media only screen and (max-width: 675px) {
+    .fa-magnifying-glass{
+     display: flex;
+     font-size: 32px;
+     text-align: center;
+    }
+    }
+    @media only screen and (max-width: 573px) {
+    .disp {
+    display: none;   
+    }
+    }
+    @media only screen and (max-width: 465px) {
+     .welcome {
+     display: none;    
+    }
+    }
+    @media only screen and (max-width: 465px) {
+     .btn-focus {
+     width: 130px;   
+    }
+    }
+    @media only screen and (max-width: 465px) {
+     .tbtn{
+     margin: 0;
+     height: 70px;   
+    }
+    }
+    @media only screen and (max-width: 465px) {
+     .navbar-toggler{
+       width: 346px;
+    }
+    }
+    @media only screen and (max-width: 380px) {
+     .adm1{
+
+       width: 10px;
+    }
+    }
+   @media only screen and (min-width: 779px) { 
+   .font-monospace { 
+
+     display: none;
     }
     }
     @media only screen and (max-width: 767px) { 
     .new-release.col-3 { 
 
-      display: none;
+     display: none;
     }
     }
     @media only screen and (max-width: 779px) { 
     .new-release.col-2 { 
 
-      display: none;
+     display: none;
     }
     }
     @media only screen and (max-width: 380px) { 
     .new-release.col { 
 
-      height: 100px;
-      width: 150px;
+     height: 100px;
+     width: 150px;
     }
     }
     @media only screen and (max-width: 767px) { 
     .new-release2.col-3 { 
 
-      display: none;
+     display: none;
     }
     }
     @media only screen and (max-width: 779px) { 
     .new-release2.col-2 { 
 
-      display: none;
+     display: none;
     }
     }
     @media only screen and (max-width: 380px) { 
     .new-release2.col { 
 
-      height: 100px;
-      width: 150px;
+     height: 100px;
+     width: 150px;
     }
     }
-    .p1{
-      margin: 0;
+   .p1{
+     margin: 0;
     }
     @media only screen and (max-width: 375px) { 
-    .text-wrap{ 
-      font-size: 10px;
-      height: 100px;
+   .text-wrap{ 
+     font-size: 10px;
+     height: 100px;
     }
     }
     @media only screen and (min-width: 375px) { 
     .adm110{ 
-      display: none;
+     display: none;
     }
     }
 
 
     @media only screen and (max-width: 375px) { 
-    .rlstext{ 
-      font-size: 10px;
+   .rlstext{ 
+     font-size: 10px;
     }
     }
-    @media only screen and (max-width: 765px) { 
-    .item-image{ 
-      width: 150px;
-      height:110px;
-      margin: 2px;
-      padding: 4px;
-    }
-    }
-    @media only screen and (max-width: 375px) { 
-    .m3{ 
-      width: 150px;
-      height:110px;
-      margin: 2px;
-      padding: 4px;
+   @media only screen and (max-width: 765px) { 
+   .item-image{ 
+     width: 150px;
+     height:110px;
+     margin: 2px;
+     padding: 4px;
     }
     }
     @media only screen and (max-width: 765px) { 
@@ -138,98 +179,188 @@
 
     }
     }
+   @media only screen and (min-width: 765px) { 
+   .item-image{ 
+     width: 200px;
+     height:170px;
+    }
+    }
+   @media only screen and (min-width: 760px) { 
+   .rlstext{ 
+     font-size: 15px;
+    }
+    }
+   @media only screen and (min-width: 760px) { 
+   .img-thumbnail{ 
+     width: 180px;
+     height:120px;
+    }
+    }
+    /*---------M3-------------The sizes on stuff and tools---------------------------------------------------*/
+
     @media only screen and (max-width: 375px) { 
+    .m3{ 
+     width: 150px;
+     height:110px;
+     margin: 2px;
+     padding: 4px;
+    }
+    }
+
+   @media only screen and (min-width: 760px) { 
+   .m3{ 
+     width: 210px;
+     height:150px;
+     padding: 0px;
+     margin: 0px;
+    }
+    }
+    @media only screen and (min-width: 760px) { 
+   .m3{ 
+     font-size: 10px;
+    }
+    }
+   @media only screen and (min-width: 1280px) { 
+   .m3{ 
+     width: 355px;
+     height:80px;
+    }
+    }
+   @media only screen and (max-width: 1270px) { 
+   .m3{ 
+     width: 216px;
+     height: 90px;
+    }
+    }
+
+    /*--------------box and image manipulation--------------------*/
+
+    @media only screen and (max-width: 800px) { 
+    .am3{ 
+      font-size: 23px;
+    }
+    }
+    @media only screen and (max-width: 400px) { 
     .am3{ 
       display: none;
     }
     }
-    @media only screen and (min-width: 765px) { 
-    .item-image{ 
-      width: 200px;
-      height:170px;
+
+    /*---------------------------------------------------------*/
+    /* -------------------------IP4------------------------------------ */
+    /* ------------------------------------------------------------- */
+    @media only screen and (max-width: 320px) { 
+   .img-thumbnail{ 
+     width: 115px;
+     height:90px;
     }
     }
-    @media only screen and (min-width: 760px) { 
-    .rlstext{ 
-      font-size: 15px;
-    }
-    }
-    @media only screen and (min-width: 760px) { 
-    .m3{ 
-      font-size: 10px;
-    }
-    }
-    @media only screen and (min-width: 760px) { 
-    .m3{ 
-      font-size: 10px;
-    }
-    }
-    @media only screen and (min-width: 760px) { 
-    .img-thumbnail{ 
-      width: 180px;
-      height:120px;
-    }
-    }
-    @media only screen and (min-width: 760px) { 
-    .m3{ 
-      width: 210px;
-      height:150px;
-      padding: 0px;
-      margin: 0px;
-    }
-    }
-    @media only screen and (min-width: 830px) { 
-    .item-image{ 
-      width: 230px;
-      height:240px;
-    }
-    }
-    @media only screen and (min-width: 830px) { 
-    .m3{ 
-      width: 230px;
-      height:240px;
-    }
-    }
-    @media only screen and (min-width: 1000px) { 
-    .m3{ 
-      width: 300px;
-      height: 150px;
-    }
-    }
-    @media only screen and (min-width: 830px) { 
-    .img-thumbnail{ 
-      width: 200px;
-      height:170px;
-    }
-    }
-    
-    @media only screen and (min-width: 830px) { 
-    .rlstext{ 
-      font-size: 19px;
-    }
-    }
-    @media only screen and (min-width: 1000px) { 
-    .item-image{ 
-      width: 370px;
-      height:270px;
-    }
-    }
-    
-    @media only screen and (min-width: 1000px) { 
-    .img-thumbnail{ 
-      width: 350px;
-      height:200px;
-    }
-    }
-    @media only screen and (min-width: 1000px) { 
-    .rlstext{ 
-      font-size: 23px;
+    @media only screen and (max-width: 320px) { 
+   .item-image{ 
+     width: 119px;
+     height:110px;
     }
     }
 
+    /*---------------------------------------------------------*/
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
 
+    @media only screen and (min-width: 375px) { 
+   .img-thumbnail{ 
+     width: 210px;
+     height:130px;
+    }
+    }
+    @media only screen and (min-width: 375px) { 
+   .item-image{ 
+     width: 150px;
+     height:170px;
+    }
+    }
 
-    </style> 
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+
+   @media only screen and (min-width: 768px) { 
+   .img-thumbnail{ 
+     width: 215px;
+     height:200px;
+    }
+    }
+
+    @media only screen and (min-width: 768px) {
+   .item-image{ 
+     width: 190px;
+     height:250px;
+    }
+    }
+    /* ------------------------------------------------------------- */
+    /* --------------------  IP X   ----------------------------------------- */
+    /* ----------------------IP X--------------------------------------- */
+
+    @media only screen and (min-width: 812px) {
+   .item-image{ 
+     width: 215px;
+     height:265px;
+    }
+    }
+    @media only screen and (min-width: 812px) { 
+   .img-thumbnail{ 
+     width: 190px;
+     height:220px;
+    }
+    }
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+    /* -----------------------IPAD-------------------------------------- */
+
+    @media only screen and (min-width: 1024px) {
+   .item-image{ 
+     width: 270px;
+     height:280px;
+    }
+    }
+    @media only screen and (min-width: 1024px) { 
+   .img-thumbnail{ 
+     width: 265px;
+     height:230px;
+    }
+    }
+
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+    /* -----------------------GENERIC LAPTOP-------------------------------------- */
+
+    @media only screen and (min-width: 1280px) { 
+   .item-image{ 
+     width: 370px;
+     height:270px;
+    }
+    }
+    @media only screen and (min-width: 1280px) { 
+   .img-thumbnail{ 
+     width: 360px;
+     height:200px;
+    }
+    }
+
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+    /* ------------------------------------------------------------- */
+   @media only screen and (min-width: 1000px) { 
+   .rlstext{ 
+     font-size: 23px;
+    }
+    }
+    @media only screen and (min-width: 830px) { 
+   .rlstext{ 
+     font-size: 19px;
+    }
+    }
+  </style>
+  <body class="container-fluid" style="background-color: rgb(227, 237, 255);">
     <header>
       <section>
         <div class="container-fluid border-white" style="background-color: #98A8F8;">
@@ -334,8 +465,8 @@
                 <aside>
                   <div class="col-12">
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                      <button class="btn btn-primary me-md-2" type="button"><i class="fa-thin fa-user" style="padding-right: 20px;"></i>Log In</button>
-                      <button class="btn btn-primary" type="button"><i class="fa-thin fa-arrow-right-to-bracket" style="padding-right: 9px;"></i><a href="register.html">Sign Up</a></button>
+                      <a href="Login.html"><button class="btn btn-primary me-md-2" type="button"><i class="fa-thin fa-user" style="padding-right: 20px;"></i>Log In</button></a>
+                      <a href="Register.html"><button class="btn btn-primary" type="button"><i class="fa-thin fa-arrow-right-to-bracket" style="padding-right: 9px;"></i>Register</button></a>
                     </div>
                   </div>
                 </aside>
@@ -966,7 +1097,7 @@
         </div>
       </section>
       <h5 style="margin-left: 20px; margin-top: 50px;">Tools, Software and other stuff</h5>
-      <h2><marquee behavior="loop" direction="start end"><i class="fa-duotone fa-car-side" style="transform: scaleX(-1);"></i>Just click the name to visit Website <img class="mm rounded-circle" style="transform: scaleX(-1);" src="https://media.tenor.com/iPWC0upqq_QAAAAi/animated-man-running.gif" alt=""> </marquee></h2>
+      <h2><marquee behavior="loop" direction="start end"><i class="fa-duotone fa-car-side" style="transform: scaleX(-1);"></i>Just click the name to visit Website <img class="mm rounded-circle" style="transform: scaleX(-1);" src="https://media.tenor.com/iPWC0upqq_QAAAAi/animated-man-running.gif" alt=""></marquee></h2>
       <div class="m2 container text-center" >
         <div class="row">
           <div class=" col order-last">
