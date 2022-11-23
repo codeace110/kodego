@@ -52,9 +52,34 @@
       background-color: #ecf7f7;
       
     }
-    .list-group2{
+
+    /*---------------------------------------------------------*/
+    /*          a0 = First   a0m = middle  a0l= last  */
+    /*---------------------------------------------------------*/
+
+    .a0{
+
+      background-color: #4775f5
       
     }
+
+    .a0m{
+
+      background-color: #4775f5
+    }
+
+    .al{
+
+      background-color: #4775f5
+    }
+
+
+    .a1{
+      background-color: #4775f5;
+    }
+
+    /*---------------------------------------------------------*/
+    /*---------------------------------------------------------*/
 
 
     .brand-logo{
@@ -96,7 +121,6 @@
       font-weight: bolder;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    
     .mm{
       width: 70px;
       height: 70px;
