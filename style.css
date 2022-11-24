@@ -53,35 +53,6 @@
       
     }
 
-    /*---------------------------------------------------------*/
-    /*          a0 = First   a0m = middle  a0l= last  */
-    /*---------------------------------------------------------*/
-
-    .a0{
-
-      background-color: #4775f5
-      
-    }
-
-    .a0m{
-
-      background-color: #4775f5
-    }
-
-    .al{
-
-      background-color: #4775f5
-    }
-
-
-    .a1{
-      background-color: #4775f5;
-    }
-
-    /*---------------------------------------------------------*/
-    /*---------------------------------------------------------*/
-
-
     .brand-logo{
       height: 50px;
       width: 50px;
@@ -139,7 +110,6 @@
     }
     .m3{
       border: #10dbff;
-      border-style: inset;
       margin: 1px;
       padding: 1px;
       background-image: linear-gradient(#e0f3f3,rgb(39, 100, 158));
@@ -255,6 +225,43 @@
       align-items: center;
 
     }
+
+    footer{
+      width: 100vw;
+      height: 10vh;
+      background-image: linear-gradient(#4e4a86,rgb(1, 47, 53));
+      
+    }
+    .btn-breadcrumb .btn:not(:last-child):after {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent;
+      border-left: 10px solid white;
+      position: absolute;
+      top: 50%;
+      margin-top: -17px;
+      left: 100%;
+      z-index: 3;
+    }
+    .btn-breadcrumb .btn:not(:last-child):before {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 17px solid transparent;
+      border-bottom: 17px solid transparent;
+      border-left: 10px solid rgb(173, 173, 173);
+      position: absolute;
+      top: 50%;
+      margin-top: -17px;
+      margin-left: 1px;
+      left: 100%;
+      z-index: 3;
+    }
+
 
  
   
